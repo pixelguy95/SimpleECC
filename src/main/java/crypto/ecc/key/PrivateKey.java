@@ -1,9 +1,9 @@
-package crypto.ecc;
+package crypto.ecc.key;
 
 import java.math.BigInteger;
 
 public class PrivateKey {
-    BigInteger raw;
+    private BigInteger raw;
 
     public PrivateKey(BigInteger privateKey) {
         this.raw = privateKey;

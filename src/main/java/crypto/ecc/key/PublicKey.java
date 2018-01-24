@@ -1,4 +1,4 @@
-package crypto.ecc;
+package crypto.ecc.key;
 
 import crypto.ecc.math.Point;
 
