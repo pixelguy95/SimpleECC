@@ -126,4 +126,11 @@ public class CurveOverField {
 
         return Q;
     }
+
+    /**
+     * @return An appropriate bit size for any private key used together with this curve
+     */
+    public int privateKeySize() {
+        return prime.bitLength();
+    }
 }
