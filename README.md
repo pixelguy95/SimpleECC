@@ -23,5 +23,5 @@ Also in current implementation the curve has to be over a field.
  
  The first part of the equation is different depending on the points you are adding.
  
- #### If Q and P are coincident
+ #### If Q and P are not coincident
 <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{100}&space;\fn_jvn&space;\large&space;$\lambda=(Y_q-&Y_p)*(X_q-X_p)^{-1}\;\;mod\;\;p" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\fn_jvn&space;\large&space;$\lambda=(Y_q-&Y_p)*(X_q-X_p)^{-1}\;\;mod\;\;p" title="\large $\lambda=(Y_q-&Y_p)*(X_q-X_p)^{-1}\;\;mod\;\;p" /></a>
