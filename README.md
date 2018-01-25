@@ -21,6 +21,5 @@ Also in current implementation the curve has to be over a field.
 ### Elliptic curve addition
  <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{100}&space;\fn_jvn&space;\large&space;$&space;Q&space;&plus;&space;P&space;=&space;R&space;\rightarrow&space;(X_q,&space;Y_q)&space;&plus;&space;(X_p,&space;Y_p)&space;=&space;(X_r,&space;Y_r)$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\fn_jvn&space;\large&space;$&space;Q&space;&plus;&space;P&space;=&space;R&space;\rightarrow&space;(X_q,&space;Y_q)&space;&plus;&space;(X_p,&space;Y_p)&space;=&space;(X_r,&space;Y_r)$" title="\large $ Q + P = R \rightarrow (X_q, Y_q) + (X_p, Y_p) = (X_r, Y_r)$" /></a>
  
- 
- 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{100}&space;\fn_jvn\LARGE&space;$\lambda&space;=&space;(Y_q&space;-&space;Y_p)&space;*&space;(X_q&space;-&space;X_p)^{-1}\;\;mod\;\;p" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\LARGE&space;$\lambda&space;=&space;(Y_q&space;-&space;Y_p)&space;*&space;(X_q&space;-&space;X_p)^{-1}\;\;mod\;\;p" title="\LARGE $\lambda = (Y_q - Y_p) * (X_q - X_p)^{-1}\;\;mod\;\;p" /></a>
+ #### If Q and P are coincident
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{100}&space;\fn_jvn&space;\large&space;$\lambda=(Y_q-&Y_p)*(X_q-X_p)^{-1}\;\;mod\;\;p" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\fn_jvn&space;\large&space;$\lambda=(Y_q-&Y_p)*(X_q-X_p)^{-1}\;\;mod\;\;p" title="\large $\lambda=(Y_q-&Y_p)*(X_q-X_p)^{-1}\;\;mod\;\;p" /></a>
