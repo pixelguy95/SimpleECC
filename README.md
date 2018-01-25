@@ -23,5 +23,11 @@ Also in current implementation the curve has to be over a field.
  
  The first part of the equation is different depending on the points you are adding.
  
- #### If Q and P are not coincident
+ #### If Q and P are coincident
+ <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{100}&space;\fn_jvn&space;\large&space;$\lambda=(3X_p^2&space;&plus;&space;a)*(2Y_p)^{-1}\;\;mod\;\;p" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\fn_jvn&space;\large&space;$\lambda=(3X_p^2&space;&plus;&space;a)*(2Y_p)^{-1}\;\;mod\;\;p" title="\large $\lambda=(3X_p^2 + a)*(2Y_p)^{-1}\;\;mod\;\;p" /></a>
+
+### Otherwise
 <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{100}&space;\fn_jvn&space;\large&space;$\lambda=(Y_q-&Y_p)*(X_q-X_p)^{-1}\;\;mod\;\;p" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\fn_jvn&space;\large&space;$\lambda=(Y_q-&Y_p)*(X_q-X_p)^{-1}\;\;mod\;\;p" title="\large $\lambda=(Y_q-&Y_p)*(X_q-X_p)^{-1}\;\;mod\;\;p" /></a>
+
+### The rest of the equation
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{100}&space;\fn_jvn&space;\large&space;X_r=\lambda^2-X_p-X_q\\&space;Y_r=\lambda(X_p-X_r)-Y_p" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{100}&space;\fn_jvn&space;\large&space;X_r=\lambda^2-X_p-X_q\\&space;Y_r=\lambda(X_p-X_r)-Y_p" title="\large X_r=\lambda^2-X_p-X_q\\ Y_r=\lambda(X_p-X_r)-Y_p" /></a>
